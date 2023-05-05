@@ -3,12 +3,13 @@ import axios from "axios";
 import jwt_decode from "jwt-decode";
 import { useNavigate } from "react-router-dom";
 
-export default function Register({ currentUser, setCurrentUser }) {
+export default function Register(props) {
   // state for the controlled form
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [msg, setMsg] = useState("");
+ 
 
   const navigate = useNavigate();
 
