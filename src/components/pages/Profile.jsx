@@ -117,7 +117,7 @@ export default function Profile(props) {
               />
             </div>
           </div>
-          <div className="col" style={{margin: '30px 0px 3px 0px'}}>
+          <div className="col justify-content-end" style={{margin: '30px 0px 3px 0px'}}>
         <form style={{margin: '81px 27px 10px -37px'}}onSubmit={handleEdit}>
           <div className="col">
           
